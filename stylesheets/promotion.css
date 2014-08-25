@@ -1,0 +1,17 @@
+
+h4 {
+    font-weight: bold ;
+}
+
+ol li  {
+    font-weight: bold ;
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+ol ol  {
+    padding-left: 2em;
+}
+
+ol ol ol {
+    padding-left: 2em;
+}
