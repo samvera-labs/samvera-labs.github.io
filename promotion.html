@@ -1,204 +1,150 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
-  <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"/>
-  <link rel="stylesheet" type="text/css" href="stylesheets/promotion.css" />
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print"/>
+        <link rel="stylesheet" type="text/css" href="stylesheets/promotion.css" />
 
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-  <title>projecthydra-labs.github.io by projecthydra-labs</title>
-</head>
+        <title>projecthydra-labs.github.io by projecthydra-labs</title>
+    </head>
 
-<body>
-<header>
-  <div class="inner">
-    <h1>projecthydra-labs.github.io</h1>
+    <body>
+        <header>
+            <div class="inner">
+                <h1>projecthydra-labs.github.io</h1>
 
-    <h2>ProjectHydra Labs</h2>
-    <a href="https://github.com/projecthydra-labs" class="button">
-      <small>Follow me on</small>
-      GitHub</a>
-  </div>
-</header>
+                <h2>ProjectHydra Labs</h2>
+                <a href="https://github.com/projecthydra-labs" class="button">
+                    <small>Follow me on</small>
+                    GitHub</a>
+            </div>
+        </header>
 
-<div id="content-wrapper">
-  <div class="inner clearfix">
-    <section id="main-content">
-      <h3>
-        <a name="project-hydra-labs-promotion" class="anchor" href="#project-hydra-lab-promotion"><span
-              class="octicon octicon-link"></span></a>Project Hydra Labs: Promotion Process</h3>
-      <h4>
-        <div id="preview_content_block_3"><p ><span>Guidelines for Promotion to Project Hydra from Labs</span>
-        </p>
-      </h4>
-      <ol>
-        <li >
-          <p ><span>Version >= 1.0</span></p>
-        </li>
-        <li >
-          <p >
-            <span>Good unit test coverage measured by community (e.g. 100% or 75% of what’s important)</span></p>
-        </li>
-        <ol>
-          <li >
-            <p ><span>uses CI (Travis-CI)</span></p>
-          </li>
-          <li >
-            <p ><span>uses Coverage tool (coveralls or simplecov)</span></p>
-          </li>
-        </ol>
-        <li >
-          <p ><span>Documentation</span></p>
-        </li>
-        <ol>
-          <li >
-            <p ><span>LICENSE file, Apache 2 (or compatible)</span></p>
-          </li>
-          <li >
-            <p ><span>README.md</span></p>
-          </li>
-          <ol>
-            <li >
-              <p ><span>Statement of purpose</span></p>
-            </li>
-            <li >
-              <p ><span>Basic install steps</span></p>
-            </li>
-            <li >
-              <p ><span>Identify any volatile/experimental features</span></p>
-            </li>
-          </ol>
-          <li >
-            <p ><span>How to contribute -&gt; CONTRIBUTING.md</span></p>
-          </li>
-          <li >
-            <p ><span>How/Who to contact for help -&gt; push out to all gems like CONTRIBUTING.md</span></p>
-          </li>
-          <li >
-            <p ><span>Known issues documented in github Issues tickets (not just listed in text)</span></p>
-          </li>
-          <li >
-            <p ><span>Tutorial / Walkthrough / Example usage</span></p>
-          </li>
-        </ol>
-        <li >
-          <p ><span>Resolve TODO items in documents and remove them</span></p>
-        </li>
-        <li >
-          <p ><span>Community use by three or more institutions</span></p>
-        </li>
-        <li >
-          <p ><span>In active use for six months</span></p>
-        </li>
-        <li >
-          <p ><span>Show compatibility with current Rails versions and other dependencies, when was it last tested; note compatibility with prior versions when available</span>
-          </p>
-        </li>
-        <ol>
-          <li >
-            <p ><span>Compatability can be specified in the gemspec(s) or verified via CI matrix</span></p>
-          </li>
-        </ol>
-        <li >
-          <p ><span>All Contributors should have signed Hydra Contibutor License Agreement (CLA)</span>
-          </p>
-        </li>
-        <li >
-          <p ><span>Hierarchy of promises asserted in clearly defined acceptance tests</span></p>
-        </li>
-      </ol>
-      <p><strong id="docs-internal-guid-9df43a4f-0d14-8665-c9f5-7559235e083e" style="font-weight: normal;">
-        &nbsp;</strong></p>
-      <h4>
-        <p ><span>Mechanism for Promotion</span></p>
-      </h4>
-      <ol>
-        <li >
-          <p ><span>As needed or requested, Gems are reviewed for promotion / graveyard</span></p>
-        </li>
-        <ol>
-          <li >
-            <p ><span>A small group should code review the candidates</span></p>
-          </li>
-          <li >
-            <p ><span>Group of contributors commits to upgrade path</span></p>
-          </li>
-          <li >
-            <p ><span>Goal to limit movement from ProjectHydra to graveyard (Path to graveyard should be from Labs)</span>
-            </p>
-          </li>
-        </ol>
-        <li >
-          <p ><span>List sent to Hydra list for approval / confirmation</span></p>
-        </li>
-      </ol>
-      <p><strong style="font-weight: normal;">&nbsp;</strong></p>
-      <h4>
-        <p ><span>Questioning Authority as the example todo:</span></p>
-      </h4>
-      <ol>
-        <li >
-          <p ><span>Needs coveralls to run test coverage</span></p>
-        </li>
-        <li >
-          <p ><span>Add possible dependency on LC data services</span></p>
-        </li>
-        <li >
-          <p ><span>Remove authors</span></p>
-        </li>
-        <li >
-          <p ><span>State how to get help - &gt; don</span></p>
-        </li>
-        <li >
-          <p ><span>Move specific vocab help (not used) to experimental section</span></p>
-        </li>
-        <li >
-          <p ><span>Complete to-do</span></p>
-        </li>
-        <li >
-          <p ><span>Update Developer Notes to link to CONTRIBUTING.md</span></p>
-        </li>
-        <li >
-          <p ><span>Make Known Issues are in Issues on Github and remove section from Readme</span></p>
-        </li>
-        <li >
-          <p ><span>Tutorial walkthrough to be done</span></p>
-        </li>
-        <ol>
-          <li >
-            <p ><span>local vocab -- Jim</span></p>
-          </li>
-          <li >
-            <p ><span>LC</span></p>
-          </li>
-          <li >
-            <p ><span>adding another api</span></p>
-          </li>
-          <li >
-            <p ><span>optional tutorial to do autocomplete</span></p>
-          </li>
-        </ol>
-        <li >
-          <p ><span>Test on Rails 3 and add to note on compatibility</span></p>
-        </li>
-        <li >
-          <p ><span>Add to Readme Rails 4 on compatibility</span></p>
-        </li>
-      </ol>
-  </div>
-  </section>
-  <aside id="sidebar">
-  </aside>
-</div>
-</div>
-
-</body>
+        <div id="content-wrapper">
+            <div class="inner clearfix">
+                <section id="main-content">
+                    <h3>
+                        <a name="project-hydra-labs-promotion" class="anchor" href="#project-hydra-lab-promotion"><span
+                                                                                                                      class="octicon octicon-link"></span></a>Project Hydra Labs: Promotion Process</h3>
+                    <h4>
+                        <div id="preview_content_block_3">
+                            <p><span>Guidelines for Promotion to Project Hydra from Labs</span>
+                        </div>
+                    </h4>
+                    <ol>
+                        <li >
+                            <p ><span>Version >= 1.0</span></p>
+                        </li>
+                        <li >
+                            <p >
+                                <span>Good unit test coverage measured by community (e.g. 100% or 75% of what’s important)</span></p>
+                        </li>
+                        <ol>
+                            <li >
+                                <p ><span>uses CI (Travis-CI)</span></p>
+                            </li>
+                            <li >
+                                <p ><span>uses Coverage tool (coveralls or simplecov)</span></p>
+                            </li>
+                        </ol>
+                        <li >
+                            <p ><span>Documentation</span></p>
+                        </li>
+                        <ol>
+                            <li >
+                                <p ><span>LICENSE file, Apache 2 (or compatible)</span></p>
+                            </li>
+                            <li >
+                                <p ><span>README.md</span></p>
+                            </li>
+                            <ol>
+                                <li >
+                                    <p ><span>Statement of purpose</span></p>
+                                </li>
+                                <li >
+                                    <p ><span>Basic install steps</span></p>
+                                </li>
+                                <li >
+                                    <p ><span>Identify any volatile/experimental features</span></p>
+                                </li>
+                            </ol>
+                            <li >
+                                <p ><span>How to contribute -&gt; CONTRIBUTING.md</span></p>
+                            </li>
+                            <li >
+                                <p ><span>How/Who to contact for help -&gt; push out to all gems like CONTRIBUTING.md</span></p>
+                            </li>
+                            <li >
+                                <p ><span>Known issues documented in github Issues tickets (not just listed in text)</span></p>
+                            </li>
+                            <li >
+                                <p ><span>Tutorial / Walkthrough / Example usage</span></p>
+                            </li>
+                        </ol>
+                        <li >
+                            <p ><span>Resolve TODO items in documents and remove them</span></p>
+                        </li>
+                        <li >
+                            <p ><span>Community use by three or more institutions</span></p>
+                        </li>
+                        <li >
+                            <p ><span>In active use for six months</span></p>
+                        </li>
+                        <li >
+                            <p ><span>Show compatibility with current Rails versions and other dependencies, when was it last tested; note compatibility with prior versions when available</span>
+                            </p>
+                        </li>
+                        <ol>
+                            <li >
+                                <p ><span>Compatability can be specified in the gemspec(s) or verified via CI matrix</span></p>
+                            </li>
+                        </ol>
+                        <li >
+                            <p ><span>All Contributors should have signed Hydra Contibutor License Agreement (CLA)</span>
+                            </p>
+                        </li>
+                        <li >
+                            <p ><span>Hierarchy of promises asserted in clearly defined acceptance tests</span></p>
+                        </li>
+                    </ol>
+                    <p><strong id="docs-internal-guid-9df43a4f-0d14-8665-c9f5-7559235e083e" style="font-weight: normal;">
+                        &nbsp;</strong></p>
+                    <h4>
+                        <p ><span>Mechanism for Promotion</span></p>
+                    </h4>
+                    <ol>
+                        <li >
+                            <p ><span>As needed or requested, Gems are reviewed for promotion / graveyard</span></p>
+                        </li>
+                        <ol>
+                            <li >
+                                <p ><span>A small group should code review the candidates</span></p>
+                            </li>
+                            <li >
+                                <p ><span>Group of contributors commits to upgrade path</span></p>
+                            </li>
+                            <li >
+                                <p ><span>Goal to limit movement from ProjectHydra to graveyard (Path to graveyard should be from Labs)</span>
+                                </p>
+                            </li>
+                        </ol>
+                        <li >
+                            <p ><span>List sent to Hydra list for approval / confirmation</span></p>
+                        </li>
+                    </ol>
+                </section>
+                <aside id="sidebar">
+                </aside>
+            </div>
+        </div>
+    </body>
 </html>
