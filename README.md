@@ -1,5 +1,2 @@
-projecthydra-labs.github.io
-===========================
-
-ProjectHydra Labs
-http://projecthydra-labs.github.io
+## Samvera Labs
+http://samvera-labs.github.io
